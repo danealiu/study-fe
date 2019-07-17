@@ -1,0 +1,7 @@
+1、安装完vue-cli中，提示vue找不到，即可能是环境变量没有添加成功
+---解决方法：
+npm i @vue/cli -g
+/Users/liuxiaojuan15/.npm-global/bin/vue -> /Users/liuxiaojuan15/.npm-global/lib/node_modules/@vue/cli/bin/vue.js
+复制前面的地址
+export PATH="$PATH:/Users/liuxiaojuan15/.npm-global/bin" 转出到环境变量中
+然后再vue --version就有了
